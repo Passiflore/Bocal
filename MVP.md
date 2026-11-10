@@ -14,7 +14,8 @@ Bocal est une application web collaborative qui permet à un groupe d'amis de re
 
 ### Comptes
 
-- Inscription et connexion.
+- Inscription et connexion par **email et mot de passe**.
+- Pas de réinitialisation du mot de passe dans le MVP : en cas d'oubli, elle se fait manuellement.
 
 ### Groupe
 
@@ -98,7 +99,10 @@ stateDiagram-v2
 - Plusieurs groupes par utilisateur
 - Plusieurs types par idée, filtre par type
 - Notifications (email, push)
+- Mises à jour en temps réel (WebSockets) : dans le MVP, les données sont rechargées au retour sur l'app et après chaque action
 - Identité visuelle scrapbooking aboutie
+- Mot de passe oublié (réinitialisation par email)
+- Connexion avec Google
 - Suppression de compte (RGPD), avec la question de ce que deviennent les idées et les commentaires de la personne
 
 ---
