@@ -52,7 +52,7 @@ Les choix et leurs raisons sont détaillés dans **[STACK.md](STACK.md)**.
 - [x] Cadrage du périmètre du MVP
 - [x] Backlog et critères d'acceptation
 - [x] Choix de la stack technique
-- [ ] Modélisation des données
+- [x] Modélisation des données
 - [ ] Mise en place du projet et de l'outillage
 - [ ] Développement du MVP
 - [ ] Mise en ligne
