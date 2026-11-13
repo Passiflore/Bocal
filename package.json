@@ -1,0 +1,27 @@
+{
+	"name": "bocal",
+	"version": "1.0.0",
+	"description": "**Le bocal à idées de sorties de ta bande d'amis.**",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"private": true,
+	"workspaces": [
+		"web",
+		"api",
+		"shared"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Passiflore/Bocal.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "commonjs",
+	"bugs": {
+		"url": "https://github.com/Passiflore/Bocal/issues"
+	},
+	"homepage": "https://github.com/Passiflore/Bocal#readme"
+}
